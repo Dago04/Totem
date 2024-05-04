@@ -4,7 +4,7 @@ export const AppRouter = () => {
     return (
         <>
             <Routes>
-                <Route path='/*' element={<TotemRoutes />} />
+                <Route path='*' element={<TotemRoutes />} />
             </Routes >
         </>
     )
