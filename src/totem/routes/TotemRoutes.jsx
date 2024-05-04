@@ -1,5 +1,5 @@
 import { Route, Routes, Navigate } from 'react-router-dom'
-import { Navbar } from '../../ui'
+import { Footer, Navbar } from '../../ui'
 import { TotemHomePage, Camisetas } from '../pages'
 
 export const TotemRoutes = () => {
@@ -11,6 +11,7 @@ export const TotemRoutes = () => {
                 <Route path='camisas' element={<Camisetas />} />
                 <Route path="/" element={<Navigate to="/home" />} />
             </Routes>
+            <Footer />
         </>
     )
 }

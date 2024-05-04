@@ -1,9 +1,16 @@
-import { Slider } from '../components'
+import { Slider, Benefits } from '../components'
 export const TotemHomePage = () => {
 
     return (
-        <div>
-            <Slider />
-        </div>
+        <main className='w-full  mx-auto  py-16'>
+            <section className='relative'>
+                <Slider />
+            </section>
+            <section className=''>
+                <Benefits />
+            </section>
+
+        </main>
+
     );
 };
