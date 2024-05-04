@@ -1,7 +1,7 @@
 
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import images from '../data/sliderImages';
 
 export const Slider = () => {
@@ -25,6 +25,14 @@ export const Slider = () => {
     const goToSlide = (index) => {
         setCurrentSlide(index);
     };
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
+        }, 2000); // Cambia de diapositiva cada segundo
+
+        return () => clearInterval(intervalId);
+    }, []); // Se ejecuta solo una vez al montar el componente
 
     return (
         <div className="max-w-[1400px] w-full mx-auto py-16 px-4 relative ">
