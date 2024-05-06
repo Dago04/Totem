@@ -56,14 +56,7 @@ export const camisasAnime = [
         anime: 'Other',
         image: '/Camisas/anime-7.jpeg'
     },
-    {
-        id: 8,
-        size: 'S, M, L, XL, 2XL, 3XL',
-        price: '$20',
-        category: 'Anime',
-        anime: 'Other',
-        image: '/Camisas/anime-8.jpeg'
-    },
+
     {
         id: 9,
         size: 'S, M, L, XL, 2XL, 3XL',
@@ -560,7 +553,6 @@ export const camisasAnime = [
         price: '$20',
         category: 'Anime',
         anime: 'Totoro',
-
         image: '/Camisas/anime-totoro-3.jpeg'
     },
     {

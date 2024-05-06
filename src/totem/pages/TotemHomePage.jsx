@@ -1,4 +1,4 @@
-import { Slider, Benefits } from '../components'
+import { Slider, Benefits, } from '../components'
 export const TotemHomePage = () => {
 
     return (
@@ -9,6 +9,7 @@ export const TotemHomePage = () => {
             <section className=''>
                 <Benefits />
             </section>
+
 
         </main>
 
