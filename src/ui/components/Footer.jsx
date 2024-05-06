@@ -4,7 +4,7 @@ import Logo from "/Logo.png";
 export const Footer = () => {
     return (
         <footer className="bg-black/90 text-white/90">
-            <div className="w-full  px-5 py-3 flex items-center sm:flex-row flex-col lg:justify-between">
+            <div className="container px-5 py-3 flex mx-auto items-center sm:flex-row flex-col ">
                 <img className="w-20 " src={Logo} alt="Logo Totem" />
                 <span className="ml-3 text-lg ">© 2024 Totem Art & Design</span>
 
