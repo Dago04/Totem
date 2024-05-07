@@ -4,7 +4,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-1.jpeg'
 
     },
@@ -13,7 +13,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-2.jpeg'
     },
     {
@@ -21,7 +21,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-3.jpeg'
 
     },
@@ -30,7 +30,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-4.jpeg'
 
     },
@@ -39,7 +39,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-5.jpeg'
 
     },
@@ -48,7 +48,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-6.jpeg'
 
     },
@@ -57,7 +57,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-7.jpeg'
 
     },
@@ -67,7 +67,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-8.jpeg'
 
     },
@@ -76,7 +76,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-9.jpeg'
     },
     {
@@ -84,7 +84,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-10.jpeg'
     },
     {
@@ -92,7 +92,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-11.jpeg'
     },
     {
@@ -100,7 +100,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-12.jpeg'
     },
     {
@@ -108,7 +108,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-13.jpeg'
     },
     {
@@ -116,7 +116,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-14.jpeg'
     },
     {
@@ -124,7 +124,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-15.jpeg'
     },
     {
@@ -132,7 +132,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-16.jpeg'
     },
     {
@@ -140,7 +140,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-17.jpeg'
     },
     {
@@ -148,7 +148,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-18.jpeg'
     },
     {
@@ -156,7 +156,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-19.jpeg'
     },
     {
@@ -164,7 +164,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-20.jpeg'
     },
     {
@@ -172,7 +172,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-21.jpeg'
     },
     {
@@ -180,7 +180,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-22.jpeg'
     },
     {
@@ -188,7 +188,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-23.jpeg'
     },
     {
@@ -196,7 +196,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-24.jpeg'
     },
     {
@@ -204,7 +204,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-25.jpeg'
     },
     {
@@ -212,7 +212,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-26.jpeg'
     },
     {
@@ -220,7 +220,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-27.jpeg'
     },
     {
@@ -228,7 +228,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-28.jpeg'
     },
     {
@@ -236,7 +236,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-29.jpeg'
     },
     {
@@ -244,7 +244,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-30.jpeg'
     },
     {
@@ -252,7 +252,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago de Oz',
+        group: 'Mago de Oz',
         image: '/Camisas/music-magodeoz-31.jpeg'
     },
     {
@@ -260,7 +260,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago ',
+        group: 'Mago ',
         image: '/Camisas/music-magodeoz-32.jpeg'
     },
     {
@@ -268,7 +268,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago ',
+        group: 'Mago ',
         image: '/Camisas/music-magodeoz-33.jpeg'
     },
     {
@@ -276,7 +276,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago ',
+        group: 'Mago ',
         image: '/Camisas/music-magodeoz-34.jpeg'
     },
     {
@@ -284,7 +284,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago ',
+        group: 'Mago ',
         image: '/Camisas/music-magodeoz-35.jpeg'
     },
     {
@@ -292,7 +292,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago ',
+        group: 'Mago ',
         image: '/Camisas/music-magodeoz-36.jpeg'
     },
     {
@@ -300,7 +300,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago ',
+        group: 'Mago ',
         image: '/Camisas/music-magodeoz-37.jpeg'
     },
     {
@@ -308,7 +308,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago ',
+        group: 'Mago ',
         image: '/Camisas/music-magodeoz-38.jpeg'
     },
     {
@@ -316,7 +316,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago ',
+        group: 'Mago ',
         image: '/Camisas/music-magodeoz-39.jpeg'
     },
     {
@@ -324,7 +324,7 @@ export const musicShirts = [
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Music',
-        banda: 'Mago ',
+        group: 'Mago ',
         image: '/Camisas/music-magodeoz-40.jpeg'
     },
 ]
