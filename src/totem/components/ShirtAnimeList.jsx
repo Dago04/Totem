@@ -1,4 +1,4 @@
-import { camisasAnime } from "../data/camisasAnime"
+import { camisasAnime } from "../data/animeShirts"
 import { AnimeShirt } from "./"
 export const ShirtAnimeList = () => {
     return (
