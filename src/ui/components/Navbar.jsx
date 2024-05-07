@@ -24,7 +24,14 @@ export const Navbar = () => {
                             `hover:opacity-80 ${isActive ? 'text-red-500' : ''} `}
                         to="/anime-shirts"
                     >
-                        Camisas
+                        Anime Shirts
+                    </NavLink>
+                    <NavLink
+                        className={({ isActive }) =>
+                            `hover:opacity-80 ${isActive ? 'text-red-500' : ''} `}
+                        to="/music-shirts"
+                    >
+                        Music Shirts
                     </NavLink>
                 </div>
 
