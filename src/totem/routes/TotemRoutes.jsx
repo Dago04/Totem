@@ -8,8 +8,8 @@ export const TotemRoutes = () => {
             <Navbar />
             <Routes>
                 <Route path='home' element={<TotemHomePage />} />
-                <Route path='anime-shirts' element={<AnimeShirtPage />} />
-                <Route path='music-shirts' element={<MusicShirtPage />} />
+                <Route path='shirts-anime' element={<AnimeShirtPage />} />
+                <Route path='shirts-music' element={<MusicShirtPage />} />
                 <Route path="/" element={<Navigate to="/home" />} />
 
 

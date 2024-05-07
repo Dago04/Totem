@@ -21,15 +21,15 @@ export const Navbar = () => {
 
                     <NavLink
                         className={({ isActive }) =>
-                            `hover:opacity-80 ${isActive ? 'text-red-500' : ''} `}
-                        to="/anime-shirts"
+                            `hover:opacity-80 ${isActive ? 'text-red-500 underline' : ''} `}
+                        to="/shirts-anime"
                     >
                         Anime Shirts
                     </NavLink>
                     <NavLink
                         className={({ isActive }) =>
-                            `hover:opacity-80 ${isActive ? 'text-red-500' : ''} `}
-                        to="/music-shirts"
+                            `hover:opacity-80 ${isActive ? 'text-red-500 underline' : ''} `}
+                        to="/shirts-music"
                     >
                         Music Shirts
                     </NavLink>
