@@ -19,16 +19,21 @@ export const Navbar = () => {
           >
             Categorias
           </NavLink>
-        </div>
-
-        <div className='flex gap-2'>
           <NavLink
             className={({ isActive }) =>
-              `hover:opacity-80 ${isActive ? 'text-red-500' : ''} `
+              `hover:opacity-80 ${isActive ? 'text-red-500 underline' : ''} `
             }
-            to='/anime-shirts'
+            to='/shirts-anime'
           >
-            Camisas
+            Anime Shirts
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              `hover:opacity-80 ${isActive ? 'text-red-500 underline' : ''} `
+            }
+            to='/shirts-music'
+          >
+            Music Shirts
           </NavLink>
         </div>
       </nav>
