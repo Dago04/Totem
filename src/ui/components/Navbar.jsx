@@ -1,36 +1,37 @@
-
 import { Link, NavLink } from 'react-router-dom';
-import Logo from '/Logo.png'
-
+import Logo from '/Logo.png';
 
 export const Navbar = () => {
+  return (
+    <header className='bg-black/90 text-white/90 '>
+      <nav className=' flex flex-col items-center container mx-auto  py-3 gap-5 lg:flex-row '>
+        <img className='w-20 ' src={Logo} alt='Logo Totem' />
+        <Link className=' hover:opacity-80' to='/'>
+          Home
+        </Link>
 
-    return (
-        <header className='bg-black/90 text-white/90 '>
+        <div className='flex gap-2'>
+          <NavLink
+            className={({ isActive }) =>
+              `hover:opacity-80 ${isActive ? 'text-red-500' : ''} `
+            }
+            to='/categories'
+          >
+            Categorias
+          </NavLink>
+        </div>
 
-            <nav className=" flex flex-col items-center container mx-auto  py-3 gap-5 lg:flex-row ">
-                <img className='w-20 ' src={Logo} alt='Logo Totem' />
-                <Link
-                    className=" hover:opacity-80"
-                    to="/"
-                >
-                    Home
-                </Link>
-
-                <div className="flex gap-2">
-
-                    <NavLink
-                        className={({ isActive }) =>
-                            `hover:opacity-80 ${isActive ? 'text-red-500' : ''} `}
-                        to="/anime-shirts"
-                    >
-                        Camisas
-                    </NavLink>
-                </div>
-
-
-            </nav>
-        </header>
-
-    )
-}
+        <div className='flex gap-2'>
+          <NavLink
+            className={({ isActive }) =>
+              `hover:opacity-80 ${isActive ? 'text-red-500' : ''} `
+            }
+            to='/anime-shirts'
+          >
+            Camisas
+          </NavLink>
+        </div>
+      </nav>
+    </header>
+  );
+};
