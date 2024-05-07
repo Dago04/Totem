@@ -14,7 +14,7 @@ export const TotemRoutes = () => {
       <Routes>
         <Route path='home' element={<TotemHomePage />} />
         <Route path='categories' element={<CategoriesPage />} />
-        <Route path='anime-shirts' element={<AnimeShirtPage />} />
+        <Route path='shirts-anime' element={<AnimeShirtPage />} />
         <Route path='shirts-music' element={<MusicShirtPage />} />
         <Route path='/' element={<Navigate to='/home' />} />
       </Routes>
