@@ -1,6 +1,6 @@
 import { Route, Routes, Navigate } from 'react-router-dom'
 import { Footer, Navbar } from '../../ui'
-import { TotemHomePage, AnimeShirtPage } from '../pages'
+import { TotemHomePage, AnimeShirtPage, MusicShirtPage } from '../pages'
 
 export const TotemRoutes = () => {
     return (
@@ -9,6 +9,7 @@ export const TotemRoutes = () => {
             <Routes>
                 <Route path='home' element={<TotemHomePage />} />
                 <Route path='anime-shirts' element={<AnimeShirtPage />} />
+                <Route path='music-shirts' element={<MusicShirtPage />} />
                 <Route path="/" element={<Navigate to="/home" />} />
 
 
