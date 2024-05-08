@@ -346,7 +346,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-1.jpeg'
     },
     {
-        id: 43,
+        id: 45,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -354,7 +354,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-2.jpeg'
     },
     {
-        id: 44,
+        id: 46,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -362,7 +362,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-3.jpeg'
     },
     {
-        id: 45,
+        id: 47,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -370,7 +370,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-4.jpeg'
     },
     {
-        id: 46,
+        id: 48,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -378,7 +378,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-5.jpeg'
     },
     {
-        id: 47,
+        id: 49,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -386,7 +386,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-6.jpeg'
     },
     {
-        id: 48,
+        id: 50,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -394,7 +394,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-7.jpeg'
     },
     {
-        id: 49,
+        id: 51,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -402,7 +402,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-8.jpeg'
     },
     {
-        id: 50,
+        id: 51,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -410,7 +410,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-9.jpeg'
     },
     {
-        id: 51,
+        id: 52,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -418,7 +418,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-10.jpeg'
     },
     {
-        id: 52,
+        id: 53,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -426,7 +426,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-11.jpeg'
     },
     {
-        id: 53,
+        id: 54,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -434,7 +434,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-12.jpeg'
     },
     {
-        id: 54,
+        id: 55,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -442,7 +442,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-13.jpeg'
     },
     {
-        id: 55,
+        id: 56,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -450,7 +450,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-14.jpeg'
     },
     {
-        id: 56,
+        id: 57,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -458,7 +458,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-myheroacademia-15.jpeg'
     },
     {
-        id: 57,
+        id: 58,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -466,7 +466,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-naruto-1.jpeg'
     },
     {
-        id: 58,
+        id: 59,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -474,7 +474,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-naruto-2.jpeg'
     },
     {
-        id: 59,
+        id: 60,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -482,7 +482,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-onepiece-1.jpeg'
     },
     {
-        id: 60,
+        id: 61,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -490,7 +490,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-onepiece-2.jpeg'
     },
     {
-        id: 61,
+        id: 62,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -498,7 +498,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-onepunch-1.jpeg'
     },
     {
-        id: 62,
+        id: 63,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -506,7 +506,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-pokemon-1.jpeg'
     },
     {
-        id: 63,
+        id: 64,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -515,7 +515,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-pokemon-2.jpeg'
     },
     {
-        id: 64,
+        id: 65,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -523,7 +523,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-saintseiya-1.jpeg'
     },
     {
-        id: 65,
+        id: 66,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -531,7 +531,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-shingeki-1.jpeg'
     },
     {
-        id: 66,
+        id: 67,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -539,7 +539,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-totoro-1.jpeg'
     },
     {
-        id: 67,
+        id: 68,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -548,7 +548,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-totoro-2.jpeg'
     },
     {
-        id: 68,
+        id: 69,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
@@ -556,7 +556,7 @@ export const camisasAnime = [
         image: '/Camisas/anime-totoro-3.jpeg'
     },
     {
-        id: 69,
+        id: 70,
         size: 'S, M, L, XL, 2XL, 3XL',
         price: '$20',
         category: 'Anime',
