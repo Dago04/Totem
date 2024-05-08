@@ -1,4 +1,4 @@
-export const musicShirts = [
+export const camisasMusica = [
     {
         id: 1,
         size: 'S, M, L, XL, 2XL, 3XL',
