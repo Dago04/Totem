@@ -11,7 +11,7 @@ export const CategoriesPage = () => {
         </span>
       </h1>
 
-      <section className='flex flex-wrap gap-4 mb-16 justify-evenly px-16'>
+      <section className='flex flex-wrap gap-4 mb-16 justify-evenly lg:px-16'>
         {categorias.map((categoria) => (
           <CategoryCard
             key={categoria.id}
