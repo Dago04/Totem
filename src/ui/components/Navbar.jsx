@@ -13,34 +13,14 @@ export const Navbar = () => {
         <div className='flex justify-end w-full mr-16 gap-8'>
           <NavLink
             className={({ isActive }) =>
-              `hover:opacity-80 text-md font-bold text-white/50 ${
-                isActive ? 'text-red-500' : ''
+              `hover:opacity-80 text-md font-bold text-white/50 ${isActive ? 'text-red-500' : ''
               } `
             }
             to='/categories'
           >
             Categorias
           </NavLink>
-          <NavLink
-            className={({ isActive }) =>
-              `hover:opacity-80 text-md font-bold text-white/50 ${
-                isActive ? 'text-red-500 underline' : ''
-              } `
-            }
-            to='/shirts-anime'
-          >
-            Anime
-          </NavLink>
-          <NavLink
-            className={({ isActive }) =>
-              `hover:opacity-80 text-md font-bold text-white/50 ${
-                isActive ? 'text-red-500 underline' : ''
-              } `
-            }
-            to='/shirts-music'
-          >
-            Música
-          </NavLink>
+
         </div>
       </nav>
     </header>

@@ -1,9 +1,9 @@
 import { Slider, Benefits } from '../components';
 export const TotemHomePage = () => {
   return (
-    <main className='w-full mx-auto py-16 px-32'>
-      <section className='flex gap-12'>
-        <article className='text-center mb-20 w-1/2 mt-24'>
+    <main className='w-full mx-auto p-4 lg:py-16 lg:px-32'>
+      <section className='flex flex-col lg:flex-col gap-12'>
+        <article className='text-center lg:mb-20 w-full lg:w-1/2 lg:mt-24'>
           <h1 className='mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-pretty'>
             Experimenta <span className='text-blue-600'>la mejor calidad</span>{' '}
             en serigrafía.
@@ -21,14 +21,12 @@ export const TotemHomePage = () => {
           </div>
         </article>
 
-        <section className='relative w-1/2'>
+        <section className='relative w-full lg:w-1/2'>
           <Slider />
         </section>
       </section>
 
-      <section className=''>
-        <Benefits />
-      </section>
+      <Benefits />
     </main>
   );
 };
