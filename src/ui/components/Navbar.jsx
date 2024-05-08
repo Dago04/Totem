@@ -10,7 +10,7 @@ export const Navbar = () => {
           Inicio
         </Link>
 
-        <div className='flex justify-end w-full mr-16 gap-8'>
+        <div className='flex justify-center w-full lg:justify-end'>
           <NavLink
             className={({ isActive }) =>
               `hover:opacity-80 text-md font-bold text-white/50 ${isActive ? 'text-red-500' : ''
