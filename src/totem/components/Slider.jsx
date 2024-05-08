@@ -1,5 +1,4 @@
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-// import { RxDotFilled } from 'react-icons/rx';
+
 import { useState, useEffect } from 'react';
 import images from '../data/sliderImages';
 
