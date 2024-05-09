@@ -1,7 +1,7 @@
 
 export const MusicShirt = ({ id, size, price, category, group, image }) => {
     return (
-        <div className="w-full border shadow-lg rounded-x rounded ">
+        <div className="w-full border shadow-lg rounded-x rounded ease-in-out transition hover:scale-105">
             <div className=" rounded overflow-hidden">
                 <img alt={group} className="" src={image} />
             </div>
