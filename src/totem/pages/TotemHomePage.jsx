@@ -3,7 +3,7 @@ export const TotemHomePage = () => {
   return (
     <main className='w-full mx-auto p-4 lg:py-16 lg:px-32'>
       <section className='flex flex-col lg:flex-row gap-12'>
-        <article className='text-center lg:mb-20 w-full lg:w-1/2 lg:mt-24'>
+        <article className='text-center lg:mb-20 w-full lg:w-1/2 lg:mt-24 animate__animated animate__fadeInLeft'>
           <h1 className='mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-pretty'>
             Experimenta <span className='text-blue-600'>la mejor calidad</span>{' '}
             en serigrafía.
@@ -21,7 +21,7 @@ export const TotemHomePage = () => {
           </div>
         </article>
 
-        <section className='relative w-full lg:w-1/2'>
+        <section className='relative w-full lg:w-1/2 animate__animated animate__fadeInRight'>
           <Slider />
         </section>
       </section>
