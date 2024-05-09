@@ -5,7 +5,7 @@ import { MusicShirt } from './';
 
 export const ShirtMusicList = () => {
     const musicShirts = useMemo(() => {
-        console.log('Calculating music shirts...');
+
         return camisasMusica;
     }, []);
     return (

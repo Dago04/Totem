@@ -1,6 +1,5 @@
-
-import { useState, useEffect } from 'react';
-import images from '../data/sliderImages';
+import { useState, useEffect } from "react";
+import images from "../data/sliderImages";
 
 export const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -15,14 +14,12 @@ export const Slider = () => {
 
   return (
     <>
-      <div className='relative max-w-[800px] mx-auto px-3'>
+      <div className="relative max-w-[800px] mx-auto px-3">
         <div
           style={{ backgroundImage: `url(${images[currentSlide]})` }}
-          className='w-full  mx-auto h-[500px] md:h-[500px] lg:h-[500px] rounded-2xl bg-center bg-cover duration-700 ease-in-out'
+          className="w-full  mx-auto h-[500px] md:h-[500px] lg:h-[500px] rounded-2xl bg-center bg-cover duration-700 ease-in-out"
         ></div>
-
       </div>
-
     </>
   );
 };
