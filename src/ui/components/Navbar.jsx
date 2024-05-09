@@ -6,6 +6,7 @@ import { useState } from "react";
 export const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const handleOpenMenu = () => {
+    console.log(openMenu);
     setOpenMenu(!openMenu);
   };
   const handleCloseMenu = () => {
@@ -19,7 +20,7 @@ export const Navbar = () => {
         <GiHamburgerMenu className="mr-5 lg:hidden" onClick={handleOpenMenu} />
 
         <NavItems />
-        {openMenu && <NavModal handleCloseMenu={handleCloseMenu} />}
+        {openMenu && <NavModal handleCloseMenu={handleCloseMenu} openMenu={openMenu} />}
       </nav>
     </header>
   );
@@ -49,13 +50,24 @@ const NavItems = ({ handleCloseMenu }) => {
       >
         Categorias
       </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          `hover:opacity-80  font-bold ${isActive ? "text-blue-500" : "text-white/50"
+          } `
+        }
+        to="/contact"
+        onClick={handleCloseMenu}
+
+      >
+        Contacto
+      </NavLink>
     </div >
   );
 };
 
-const NavModal = ({ handleCloseMenu }) => {
+const NavModal = ({ handleCloseMenu, openMenu }) => {
   return (
-    <div className="absolute z-10  bg-slate-950 top-24 left-0 p-4 w-full flex flex-col items-center text-3xl py-8 gap-3">
+    <div className={`absolute z-10 bg-slate-950 top-24 left-0 p-4 w-full flex flex-col items-center text-3xl py-8 gap-3 animate__animated ${openMenu ? 'animate__fadeInLeft' : 'animate__fadeOutLeft'}`}>
       <NavLink
         className={({ isActive }) =>
           `hover:opacity-80  font-bold ${isActive ? "text-blue-500" : "text-white/50"
