@@ -5,3 +5,4 @@ export * from './AnimeShirt';
 export * from './CategoryCard';
 export * from './ShirtMusicList';
 export * from './MusicShirt';
+export * from './MapEmbed';
