@@ -8,6 +8,9 @@ export const Navbar = () => {
   const handleOpenMenu = () => {
     setOpenMenu(!openMenu);
   };
+  const handleCloseMenu = () => {
+    setOpenMenu(false);
+  };
 
   return (
     <header className="bg-slate-950/90 text-white/90 text-xl">
@@ -18,21 +21,22 @@ export const Navbar = () => {
           <NavItems />
         </div>
 
-        {openMenu && <NavItems />}
+        {openMenu && <NavItems handleCloseMenu={handleCloseMenu} />}
       </nav>
     </header>
   );
 };
 
-const NavItems = () => {
+const NavItems = ({ handleCloseMenu }) => {
   return (
-    <div className="absolute lg:relative lg:top-0 lg:bg-transparent lg:flex lg:flex-row lg:text-xl bg-slate-950 top-24 p-4 w-full flex flex-col items-center text-3xl py-8 gap-3">
+    <div className="absolute z-10 lg:relative lg:top-0 lg:bg-transparent lg:flex lg:flex-row lg:text-xl bg-slate-950 top-24 left-0 p-5 w-full flex flex-col items-center text-3xl py-8 gap-3">
       <NavLink
         className={({ isActive }) =>
           `hover:opacity-80  font-bold ${isActive ? "text-blue-500" : "text-white/50"
           } `
         }
         to="home"
+        onClick={handleCloseMenu}
       >
         Inicio
       </NavLink>
@@ -42,9 +46,11 @@ const NavItems = () => {
           } `
         }
         to="/categories"
+        onClick={handleCloseMenu}
+
       >
         Categorias
       </NavLink>
-    </div>
+    </div >
   );
 };
