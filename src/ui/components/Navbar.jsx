@@ -29,7 +29,7 @@ export const Navbar = () => {
 
 const NavItems = ({ handleCloseMenu }) => {
   return (
-    <div className="absolute z-10 lg:relative lg:top-0 lg:bg-transparent lg:flex lg:flex-row lg:text-xl bg-slate-950 top-24 left-0 p-5 w-full flex flex-col items-center text-3xl py-8 gap-3">
+    <div className="absolute z-10 lg:relative lg:top-0 lg:bg-transparent lg:flex lg:flex-row lg:text-xl bg-slate-950 top-24 left-0 p-4 w-full flex flex-col items-center text-3xl py-8 gap-3">
       <NavLink
         className={({ isActive }) =>
           `hover:opacity-80  font-bold ${isActive ? "text-blue-500" : "text-white/50"
