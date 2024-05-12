@@ -37,7 +37,7 @@ export const ContactHero = () => {
                     <p className="text-lg font-normal text-pretty">
                         How can we help you?
                     </p>
-                    <h2 className="my-8 text-3xl sm:text-6xl sm:my-8 font-extrabold">
+                    <h2 className="my-8 text-3xl sm:text-6xl sm:my-8 font-extrabold text-blue-600">
                         Contact us
                     </h2>
                     <p className="text-lg font-normal text-pretty">
