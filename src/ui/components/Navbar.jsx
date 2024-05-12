@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
     <header className="bg-slate-950/90 text-white/90 text-xl">
-      <nav className="flex justify-between lg:justify-start items-center container mx-auto py-3 gap-5 lg:flex-row">
+      <nav className="flex justify-between lg:justify-start items-center container mx-auto py-2 gap-5 lg:flex-row">
         <Link to="/home">
           <img className="w-20" src={Logo} alt="Logo Totem" />
         </Link>
