@@ -6,3 +6,5 @@ export * from './CategoryCard';
 export * from './ShirtMusicList';
 export * from './MusicShirt';
 export * from './MapEmbed';
+export * from './ContactHero';
+export * from './ContactForm';
