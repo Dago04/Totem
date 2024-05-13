@@ -1,7 +1,7 @@
 export const camisasMusica = [
     {
         id: 1,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -10,7 +10,7 @@ export const camisasMusica = [
     },
     {
         id: 2,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -18,7 +18,7 @@ export const camisasMusica = [
     },
     {
         id: 3,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -27,7 +27,7 @@ export const camisasMusica = [
     },
     {
         id: 4,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -36,7 +36,7 @@ export const camisasMusica = [
     },
     {
         id: 5,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -45,7 +45,7 @@ export const camisasMusica = [
     },
     {
         id: 6,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -54,7 +54,7 @@ export const camisasMusica = [
     },
     {
         id: 7,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -64,7 +64,7 @@ export const camisasMusica = [
 
     {
         id: 8,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -73,7 +73,7 @@ export const camisasMusica = [
     },
     {
         id: 9,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -81,7 +81,7 @@ export const camisasMusica = [
     },
     {
         id: 10,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -89,7 +89,7 @@ export const camisasMusica = [
     },
     {
         id: 11,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -97,7 +97,7 @@ export const camisasMusica = [
     },
     {
         id: 12,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -105,7 +105,7 @@ export const camisasMusica = [
     },
     {
         id: 13,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -113,7 +113,7 @@ export const camisasMusica = [
     },
     {
         id: 14,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -121,7 +121,7 @@ export const camisasMusica = [
     },
     {
         id: 15,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -129,7 +129,7 @@ export const camisasMusica = [
     },
     {
         id: 16,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -137,7 +137,7 @@ export const camisasMusica = [
     },
     {
         id: 17,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -145,7 +145,7 @@ export const camisasMusica = [
     },
     {
         id: 18,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -153,7 +153,7 @@ export const camisasMusica = [
     },
     {
         id: 19,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -161,7 +161,7 @@ export const camisasMusica = [
     },
     {
         id: 20,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -169,7 +169,7 @@ export const camisasMusica = [
     },
     {
         id: 21,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -177,7 +177,7 @@ export const camisasMusica = [
     },
     {
         id: 22,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -185,7 +185,7 @@ export const camisasMusica = [
     },
     {
         id: 23,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -193,7 +193,7 @@ export const camisasMusica = [
     },
     {
         id: 24,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -201,7 +201,7 @@ export const camisasMusica = [
     },
     {
         id: 25,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -209,7 +209,7 @@ export const camisasMusica = [
     },
     {
         id: 26,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -217,7 +217,7 @@ export const camisasMusica = [
     },
     {
         id: 27,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -225,7 +225,7 @@ export const camisasMusica = [
     },
     {
         id: 28,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -233,7 +233,7 @@ export const camisasMusica = [
     },
     {
         id: 29,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -241,7 +241,7 @@ export const camisasMusica = [
     },
     {
         id: 30,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -249,7 +249,7 @@ export const camisasMusica = [
     },
     {
         id: 31,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago de Oz',
@@ -257,7 +257,7 @@ export const camisasMusica = [
     },
     {
         id: 32,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago ',
@@ -265,7 +265,7 @@ export const camisasMusica = [
     },
     {
         id: 33,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago ',
@@ -273,7 +273,7 @@ export const camisasMusica = [
     },
     {
         id: 34,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago ',
@@ -281,7 +281,7 @@ export const camisasMusica = [
     },
     {
         id: 35,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago ',
@@ -289,7 +289,7 @@ export const camisasMusica = [
     },
     {
         id: 36,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago ',
@@ -297,7 +297,7 @@ export const camisasMusica = [
     },
     {
         id: 37,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago ',
@@ -305,7 +305,7 @@ export const camisasMusica = [
     },
     {
         id: 38,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago ',
@@ -313,7 +313,7 @@ export const camisasMusica = [
     },
     {
         id: 39,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago ',
@@ -321,7 +321,7 @@ export const camisasMusica = [
     },
     {
         id: 40,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Music',
         group: 'Mago ',

@@ -5,6 +5,7 @@ import {
   CategoriesPage,
   ShirtsPage,
   ContactPage,
+  ShirtDetailPage,
 } from '../pages';
 
 
@@ -17,6 +18,7 @@ export const TotemRoutes = () => {
         <Route path='categories' element={<CategoriesPage />} />
         <Route path='contact' element={<ContactPage />} />
         <Route path='shirts/:category' element={<ShirtsPage />} />
+        <Route path='shirts/:category/:id' element={<ShirtDetailPage />} />
         <Route path='/' element={<Navigate to='/home' />} />
 
       </Routes>

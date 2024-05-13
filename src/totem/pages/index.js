@@ -4,4 +4,5 @@ export * from './CategoriesPage';
 export * from './TotemHomePage';
 export * from './MusicShirtPage';
 export * from './ShirtsPage';
-export * from './ContactPage';  
+export * from './ContactPage';
+export * from './ShirtDetailPage';
