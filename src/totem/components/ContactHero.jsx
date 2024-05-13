@@ -32,12 +32,12 @@ export const ContactHero = () => {
 
     return (
         <section className="py-10 sm:py-20 w-full bg-slate-950/85 text-white/90 text-sm sm:text-md">
-            <article className="container mx-auto px-3 flex flex-col sm:flex-row items-center justify-center sm:gap-20 lg:gap-80 lg:px-0">
-                <div className="mb-8 sm:mb-0">
+            <article className="container mx-auto px-3 flex flex-col sm:flex-row items-center justify-center sm:gap-20 lg:gap-80 lg:px-0 ">
+                <div className="mb-8 sm:mb-0 animate__animated animate__fadeInLeft">
                     <p className="text-lg font-normal text-pretty">
                         How can we help you?
                     </p>
-                    <h2 className="my-8 text-3xl sm:text-6xl sm:my-8 font-extrabold">
+                    <h2 className="my-8 text-3xl sm:text-6xl sm:my-8 font-extrabold text-blue-600">
                         Contact us
                     </h2>
                     <p className="text-lg font-normal text-pretty">
@@ -73,7 +73,7 @@ export const ContactHero = () => {
                         ))}
                     </div>
                 </div>
-                <div className="hidden lg:flex">
+                <div className="hidden lg:flex animate__animated animate__fadeInRight">
                     <figure className="w-full max-w-[500px]">
                         <img src={Logo} alt="Logo Totem" />
                     </figure>

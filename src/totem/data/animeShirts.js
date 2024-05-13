@@ -1,48 +1,48 @@
 export const camisasAnime = [
     {
         id: 1,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
-        anime: 'Other',
-        image: '/Camisas/anime-1.jpeg'
+        anime: 'El viaje de chihiro',
+        image: '/Camisas/anime-El-viaje de-chihiro-1.jpeg'
 
     },
     {
         id: 2,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
-        anime: 'Other',
-        image: '/Camisas/anime-2.jpeg'
+        anime: 'El viaje de chihiro',
+        image: '/Camisas/anime-El-viaje de-chihiro-2.jpeg'
     },
     {
         id: 3,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
-        anime: 'Other',
-        image: '/Camisas/anime-3.jpeg'
+        anime: 'El viaje de chihiro',
+        image: '/Camisas/anime-El-viaje de-chihiro-3.jpeg'
     },
     {
         id: 4,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
-        anime: 'Other',
-        image: '/Camisas/anime-4.jpeg'
+        anime: 'La princesa Mononoke',
+        image: '/Camisas/anime-la-princesa-mononoke-1.jpeg'
     },
     {
         id: 5,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Other',
-        image: '/Camisas/anime-5.jpeg'
+        image: '/Camisas/anime-la-princesa-mononoke-2.jpeg'
     },
     {
         id: 6,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Other',
@@ -50,7 +50,7 @@ export const camisasAnime = [
     },
     {
         id: 7,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Other',
@@ -59,7 +59,7 @@ export const camisasAnime = [
 
     {
         id: 9,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Other',
@@ -67,15 +67,15 @@ export const camisasAnime = [
     },
     {
         id: 10,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Other',
-        image: '/Camisas/anime-10.jpeg'
+        image: '/Camisas/anime-studio-ghibli-1.jpeg'
     },
     {
         id: 11,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Bleach',
@@ -83,7 +83,7 @@ export const camisasAnime = [
     },
     {
         id: 12,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Bleach',
@@ -91,7 +91,7 @@ export const camisasAnime = [
     },
     {
         id: 13,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Blue Lock',
@@ -99,7 +99,7 @@ export const camisasAnime = [
     },
     {
         id: 14,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Blue Lock',
@@ -107,7 +107,7 @@ export const camisasAnime = [
     },
     {
         id: 15,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Dead Note',
@@ -115,7 +115,7 @@ export const camisasAnime = [
     },
     {
         id: 16,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Dead Note',
@@ -123,7 +123,7 @@ export const camisasAnime = [
     },
     {
         id: 17,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Dragon Ball',
@@ -131,7 +131,7 @@ export const camisasAnime = [
     },
     {
         id: 18,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Dragon Ball',
@@ -139,7 +139,7 @@ export const camisasAnime = [
     },
     {
         id: 19,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Dragon Ball',
@@ -147,7 +147,7 @@ export const camisasAnime = [
     },
     {
         id: 20,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Dragon Ball',
@@ -155,7 +155,7 @@ export const camisasAnime = [
     },
     {
         id: 21,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Haikyu',
@@ -163,7 +163,7 @@ export const camisasAnime = [
     },
     {
         id: 22,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Haikyu',
@@ -171,7 +171,7 @@ export const camisasAnime = [
     },
     {
         id: 23,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Haikyu',
@@ -179,7 +179,7 @@ export const camisasAnime = [
     },
     {
         id: 24,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Haikyu',
@@ -187,7 +187,7 @@ export const camisasAnime = [
     },
     {
         id: 25,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Haikyu',
@@ -195,7 +195,7 @@ export const camisasAnime = [
     },
     {
         id: 26,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Hunter x Hunter',
@@ -203,7 +203,7 @@ export const camisasAnime = [
     },
     {
         id: 27,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Jujustu Kaisen',
@@ -211,7 +211,7 @@ export const camisasAnime = [
     },
     {
         id: 28,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Jujustu Kaisen',
@@ -219,7 +219,7 @@ export const camisasAnime = [
     },
     {
         id: 29,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Jujustu Kaisen',
@@ -227,7 +227,7 @@ export const camisasAnime = [
     },
     {
         id: 30,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Jujustu Kaisen',
@@ -235,7 +235,7 @@ export const camisasAnime = [
     },
     {
         id: 31,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Jujustu Kaisen',
@@ -243,7 +243,7 @@ export const camisasAnime = [
     },
     {
         id: 32,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Jujustu Kaisen',
@@ -251,7 +251,7 @@ export const camisasAnime = [
     },
     {
         id: 33,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -259,7 +259,7 @@ export const camisasAnime = [
     },
     {
         id: 34,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -267,7 +267,7 @@ export const camisasAnime = [
     },
     {
         id: 35,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -275,7 +275,7 @@ export const camisasAnime = [
     },
     {
         id: 36,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -283,7 +283,7 @@ export const camisasAnime = [
     },
     {
         id: 37,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -291,7 +291,7 @@ export const camisasAnime = [
     },
     {
         id: 38,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -299,7 +299,7 @@ export const camisasAnime = [
     },
     {
         id: 39,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -307,7 +307,7 @@ export const camisasAnime = [
     },
     {
         id: 40,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -315,7 +315,7 @@ export const camisasAnime = [
     },
     {
         id: 41,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -323,7 +323,7 @@ export const camisasAnime = [
     },
     {
         id: 42,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -331,7 +331,7 @@ export const camisasAnime = [
     },
     {
         id: 43,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Kimetsu no Yaiba',
@@ -339,7 +339,7 @@ export const camisasAnime = [
     },
     {
         id: 44,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -347,7 +347,7 @@ export const camisasAnime = [
     },
     {
         id: 45,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -355,7 +355,7 @@ export const camisasAnime = [
     },
     {
         id: 46,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -363,7 +363,7 @@ export const camisasAnime = [
     },
     {
         id: 47,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -371,7 +371,7 @@ export const camisasAnime = [
     },
     {
         id: 48,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -379,7 +379,7 @@ export const camisasAnime = [
     },
     {
         id: 49,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -387,7 +387,7 @@ export const camisasAnime = [
     },
     {
         id: 50,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -395,7 +395,7 @@ export const camisasAnime = [
     },
     {
         id: 51,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -403,7 +403,7 @@ export const camisasAnime = [
     },
     {
         id: 52,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -411,7 +411,7 @@ export const camisasAnime = [
     },
     {
         id: 53,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -419,7 +419,7 @@ export const camisasAnime = [
     },
     {
         id: 54,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -427,7 +427,7 @@ export const camisasAnime = [
     },
     {
         id: 55,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -435,7 +435,7 @@ export const camisasAnime = [
     },
     {
         id: 56,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -443,7 +443,7 @@ export const camisasAnime = [
     },
     {
         id: 57,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -451,7 +451,7 @@ export const camisasAnime = [
     },
     {
         id: 58,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'My Hero Academia',
@@ -459,7 +459,7 @@ export const camisasAnime = [
     },
     {
         id: 59,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Naruto',
@@ -467,7 +467,7 @@ export const camisasAnime = [
     },
     {
         id: 60,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Naruto',
@@ -475,7 +475,7 @@ export const camisasAnime = [
     },
     {
         id: 61,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'One Piece',
@@ -483,7 +483,7 @@ export const camisasAnime = [
     },
     {
         id: 62,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'One Piece',
@@ -491,7 +491,7 @@ export const camisasAnime = [
     },
     {
         id: 63,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'One Punch Man',
@@ -499,7 +499,7 @@ export const camisasAnime = [
     },
     {
         id: 64,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Pokemon',
@@ -507,7 +507,7 @@ export const camisasAnime = [
     },
     {
         id: 65,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Pokemon',
@@ -516,7 +516,7 @@ export const camisasAnime = [
     },
     {
         id: 66,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Saint Seiya',
@@ -524,7 +524,7 @@ export const camisasAnime = [
     },
     {
         id: 67,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Shingeki no Kyojin',
@@ -532,7 +532,7 @@ export const camisasAnime = [
     },
     {
         id: 68,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Totoro',
@@ -540,7 +540,7 @@ export const camisasAnime = [
     },
     {
         id: 69,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Totoro',
@@ -549,7 +549,7 @@ export const camisasAnime = [
     },
     {
         id: 70,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Totoro',
@@ -557,7 +557,7 @@ export const camisasAnime = [
     },
     {
         id: 71,
-        size: 'S, M, L, XL, 2XL, 3XL',
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
         price: '$20',
         category: 'Anime',
         anime: 'Totoro',

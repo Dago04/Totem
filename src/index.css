@@ -19,3 +19,7 @@ img {
   max-width: 100%;
   object-fit: cover;
 }
+button,
+input {
+  font-family: inherit;
+}
