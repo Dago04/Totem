@@ -11,7 +11,7 @@ export const ShirtDetailPage = () => {
         navigate(-1);
     }
     if (!animeShirt) {
-        return <div>Loading...</div>; // O algún otro manejo de carga
+        return <div>Loading...</div>;
     }
     return (
         <section className="text-gray-600 body-font overflow-hidden">
