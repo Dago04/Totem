@@ -4,7 +4,7 @@ export const AppRouter = () => {
   return (
     <div className='bg-slate-200 h-full'>
       <Routes>
-        <Route path='*' element={<TotemRoutes />} />
+        <Route path='/*' element={<TotemRoutes />} />
       </Routes>
     </div>
   );
