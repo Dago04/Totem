@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-
+import { Link } from 'react-router-dom'
 export const AnimeShirt = ({ id, size, price, category, anime, image }) => {
     return (
         <div className="w-full border shadow-lg rounded-x rounded ease-in-out transition  hover:scale-105">

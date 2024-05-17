@@ -1,6 +1,6 @@
 import { useMemo } from "react";
-import { camisasAnime } from "../data/animeShirts";
-import { AnimeShirt } from "./";
+import { camisasAnime } from "../../data/animeShirts";
+import { AnimeShirt } from "..";
 export const ShirtAnimeList = ({ shirts }) => {
     const animeShirts = useMemo(() => shirts, [shirts]);
 

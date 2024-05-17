@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import { camisasMusica } from '../data/musicShirts';
-import { MusicShirt } from './';
+import { camisasMusica } from '../../data/musicShirts';
+import { MusicShirt } from '..';
 
 
 export const ShirtMusicList = () => {
