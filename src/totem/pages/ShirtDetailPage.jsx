@@ -45,7 +45,7 @@ export const ShirtDetailPage = () => {
                                 <button className="border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none"></button>
                             </div> */}
                             <div className="flex  items-center">
-                                <span className="mr-3 text-md title-font font-medium text-gray-900 tracking-widest">Size</span>
+                                <span className="mr-3 text-md title-font font-medium text-gray-900 tracking-widest">Tallas</span>
                                 <div className="relative">
                                     <select className="text-white/90 rounded border appearance-none py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 text-base pl-3 pr-10 bg-slate-900/90">
                                         {animeShirt.size.map((size) => (
