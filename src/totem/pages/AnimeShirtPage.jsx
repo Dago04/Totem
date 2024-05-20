@@ -22,6 +22,7 @@ export const AnimeShirtPage = () => {
         } else {
             // Obtiene la lista de camisetas filtradas por el texto de búsqueda
             const filtered = getShirtByAnime(searchText);
+            console.log('a')
             // Actualiza el estado con la lista de camisetas filtradas
             setFilteredShirts(filtered);
         }
