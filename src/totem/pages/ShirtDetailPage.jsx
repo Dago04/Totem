@@ -43,16 +43,10 @@ export const ShirtDetailPage = () => {
                             cardigan.
                         </p>
                         <div className="flex mt-6 items-center pb-5 border-b-2 border-slate-950/90 mb-5">
-                            {/* <div className="flex">
-                                <span className="mr-3 font-medium">Color</span>
-                                <button className="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
-                                <button className="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-                                <button className="border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none"></button>
-                            </div> */}
-                            <div className="flex flex-col sm:flex-row sm:items-center   w-full space-y-2 sm:space-y-0 sm:space-x-3">
+                            <div className="flex flex-col sm:flex-row sm:items-center w-full space-y-2 sm:space-y-0 sm:space-x-3">
                                 <span className="text-md title-font font-medium text-gray-900 tracking-widest">Tallas</span>
-                                <div className="relative w-1/4 sm:w-auto ">
-                                    <select className="text-white/90 rounded border appearance-none py-1 sm:py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 text-base pl-3 pr-10 bg-slate-900/90 w-full sm:w-auto">
+                                <div className="relative w-full sm:w-auto">
+                                    <select className="text-white/90 text-center rounded border appearance-none py-1 sm:py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 text-base pl-3 pr-10 bg-slate-900/90 w-full sm:w-auto">
                                         {animeShirt.size.map((size) => (
                                             <option key={size} value={size}>
                                                 {size}
@@ -73,18 +67,18 @@ export const ShirtDetailPage = () => {
                                         </svg>
                                     </span>
                                 </div>
-                                <div className="w-1/2 sm:w-full sm:items-end flex lg:w-full sm:justify-end " onClick={openSizeGuide}>
+                                <div className="w-full  sm:items-end flex justify-end " onClick={openSizeGuide}>
                                     <button className="text-white/90 bg-slate-900/90 border-0 py-1 sm:py-2 px-4 sm:px-6 focus:outline-none hover:bg-blue-600 rounded font-medium w-full sm:w-auto">
                                         Ver guía de tallas
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex">
+                        <div className="flex flex-col sm:flex-row sm:items-center">
                             <span className="text-md title-font font-medium text-gray-900 tracking-widest">
                                 {animeShirt.price}
                             </span>
-                            <button className="flex ml-auto text-white/90  bg-slate-900/90 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded font-medium" onClick={onReturn}>
+                            <button className="flex ml-auto text-white/90  bg-slate-900/90 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded font-medium mt-2 sm:mt-0" onClick={onReturn}>
                                 Back
                             </button>
                         </div>
