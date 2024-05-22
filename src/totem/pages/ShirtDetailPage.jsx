@@ -7,15 +7,35 @@ export const ShirtDetailPage = () => {
     const openSizeGuide = () => setIsSizeGuideOpen(true);
     const closeSizeGuide = () => setIsSizeGuideOpen(false);
 
-    const { id } = useParams();
+    const { id, category } = useParams();
 
     const navigate = useNavigate();
-    const animeShirt = useMemo(() => getShirtAnimeById(id), [id]);
+    // Use useMemo to fetch shirt details based on category and id
+    const shirt = useMemo(() => {
+        const animeShirt = getShirtAnimeById(id);
+        switch (category) {
+            case 'anime':
+                return {
+                    id: animeShirt.id,
+                    size: animeShirt.size,
+                    price: animeShirt.price,
+                    category: animeShirt.category,
+                    title: animeShirt.anime, // Usar el mismo campo 'title' para nombre de la camisa
+                    image: animeShirt.image
+                };
+            case 'music':
+                return { title: 'Music Shirt' };
+            // return getShirtById('music', id);
+            // Add more cases for other categories if needed
+            default:
+                return null;
+        }
+    }, [category, id]);
 
     const onReturn = () => {
         navigate(-1);
     }
-    if (!animeShirt) {
+    if (!shirt) {
         return <div>Loading...</div>;
     }
     return (
@@ -23,16 +43,16 @@ export const ShirtDetailPage = () => {
             <div className="container px-5 py-24 mx-auto">
                 <div className="lg:w-4/5 mx-auto flex flex-wrap">
                     <img
-                        alt="Anime"
+                        alt={shirt.category}
                         className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-                        src={animeShirt.image}
+                        src={shirt.image}
                     />
                     <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                         <h2 className="text-sm title-font font-medium text-gray-900 tracking-widest">
-                            {animeShirt.category}
+                            {shirt.category}
                         </h2>
                         <h1 className=" text-3xl title-font  font-extrabold text-blue-600  my-2">
-                            {animeShirt.anime}
+                            {shirt.title}
                         </h1>
                         <p className="leading-relaxed">
                             Fam locavore kickstarter distillery. Mixtape chillwave tumeric
@@ -47,7 +67,7 @@ export const ShirtDetailPage = () => {
                                 <span className="text-md title-font font-medium text-gray-900 tracking-widest">Tallas</span>
                                 <div className="relative w-full sm:w-auto">
                                     <select className="text-white/90 text-center rounded border appearance-none py-1 sm:py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 text-base pl-3 pr-10 bg-slate-900/90 w-full sm:w-auto">
-                                        {animeShirt.size.map((size) => (
+                                        {shirt.size.map((size) => (
                                             <option key={size} value={size}>
                                                 {size}
                                             </option>
@@ -76,7 +96,7 @@ export const ShirtDetailPage = () => {
                         </div>
                         <div className="flex flex-col sm:flex-row sm:items-center">
                             <span className="text-md title-font font-medium text-gray-900 tracking-widest">
-                                {animeShirt.price}
+                                {shirt.price}
                             </span>
                             <button className="flex ml-auto text-white/90  bg-slate-900/90 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded font-medium mt-2 sm:mt-0" onClick={onReturn}>
                                 Back
