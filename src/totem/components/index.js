@@ -4,3 +4,4 @@ export * from './anime';
 export * from './music';
 export * from './contact';
 export * from './CategoryCard';
+export * from './Pagination';
