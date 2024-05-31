@@ -1,14 +1,24 @@
+import { Link } from 'react-router-dom'
+
 export const MusicShirt = ({ id, size, price, category, group, image }) => {
     return (
         <div className="w-full border shadow-lg rounded-x rounded ease-in-out transition hover:scale-105">
             <div className=" rounded overflow-hidden">
                 <img alt={group} className="" src={image} />
             </div>
-            <div className="mt-2 p-4">
+            <div className="mt-1 p-4  text-black/90">
                 <h3 className="mt-1">Categoria - {category}</h3>
                 <h2 className="mt-1">Banda - {group}</h2>
                 <p className="mt-1">Precio - {price}</p>
                 <p className="mt-1">Tallas - {size.join(', ')}</p>
+            </div>
+            <div className=" p-4">
+                <Link
+                    className=" ml-auto text-white  bg-slate-900/90 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded"
+                    to={`/shirts/${category.toLowerCase()}/${id}`}
+                >
+                    Mas...
+                </Link>
             </div>
         </div>
     )
