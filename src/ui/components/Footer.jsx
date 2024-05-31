@@ -3,7 +3,7 @@ import { FaInstagram } from 'react-icons/fa';
 import Logo from '/Logo.png';
 export const Footer = () => {
   return (
-    <footer className='bg-slate-950/90 "text-white/50 text-xl'>
+    <footer className='bg-slate-950/90 text-white/90 text-xl'>
       <div className='container mx-auto py-2 flex items-center sm:flex-row flex-col '>
         <img className='w-20 ' src={Logo} alt='Logo Totem' />
         <span className='ml-3 text-lg '>© 2024 Totem Art & Design</span>

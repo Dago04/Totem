@@ -40,7 +40,7 @@ const NavItems = ({ handleCloseMenu }) => {
         <NavLink
           key={path}
           className={({ isActive }) =>
-            `hover:opacity-80 font-bold ${isActive ? "text-blue-500" : "text-white/50"
+            `hover:opacity-80 font-bold ${isActive ? "text-blue-500" : ""
             }`
           }
           to={path}
