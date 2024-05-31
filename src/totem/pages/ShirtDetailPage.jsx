@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
-import { getShirtAnimeById } from "../helpers";
+import { getShirtAnimeById, getShirtMusicById } from "../helpers";
 import { SizeGuide } from "../../ui";
 import { useMemo, useState } from "react";
 export const ShirtDetailPage = () => {
@@ -16,6 +16,7 @@ export const ShirtDetailPage = () => {
     // Use useMemo to fetch shirt details based on category and id
     const shirt = useMemo(() => {
         const animeShirt = getShirtAnimeById(id);
+        const musicShirt = getShirtMusicById(id);
         switch (category) {
             case 'anime':
                 return {
@@ -27,7 +28,14 @@ export const ShirtDetailPage = () => {
                     image: animeShirt.image
                 };
             case 'music':
-                return { title: 'Music Shirt' };
+                return {
+                    id: musicShirt.id,
+                    size: musicShirt.size,
+                    price: musicShirt.price,
+                    category: musicShirt.category,
+                    title: musicShirt.group, // Usar el mismo campo 'title' para nombre de la camisa
+                    image: musicShirt.image
+                };
             // return getShirtById('music', id);
             // Add more cases for other categories if needed
             default:

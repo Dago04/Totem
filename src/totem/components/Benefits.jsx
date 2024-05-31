@@ -16,7 +16,7 @@ export const Benefits = () => {
               <h2 className='text-gray-900 text-2xl title-font mb-3 font-bold'>
                 {benefit.title}
               </h2>
-              <p className='leading-relaxed text-base'>{benefit.description}</p>
+              <p className='leading-relaxed text-base text-gray-500'>{benefit.description}</p>
             </div>
           </div>
         ))}
