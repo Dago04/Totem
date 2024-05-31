@@ -3,13 +3,16 @@ import { getShirtAnimeById } from "../helpers";
 import { SizeGuide } from "../../ui";
 import { useMemo, useState } from "react";
 export const ShirtDetailPage = () => {
+    // State for size guide modal
     const [isSizeGuideOpen, setIsSizeGuideOpen] = useState(false);
     const openSizeGuide = () => setIsSizeGuideOpen(true);
     const closeSizeGuide = () => setIsSizeGuideOpen(false);
 
+    //params
     const { id, category } = useParams();
 
     const navigate = useNavigate();
+
     // Use useMemo to fetch shirt details based on category and id
     const shirt = useMemo(() => {
         const animeShirt = getShirtAnimeById(id);
@@ -32,9 +35,11 @@ export const ShirtDetailPage = () => {
         }
     }, [category, id]);
 
+    // Handle click on return button
     const onReturn = () => {
         navigate(-1);
     }
+
     if (!shirt) {
         return <div>Loading...</div>;
     }
