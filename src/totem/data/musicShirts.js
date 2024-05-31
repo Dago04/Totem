@@ -327,4 +327,14 @@ export const camisasMusica = [
         group: 'Mago ',
         image: '/Camisas/music-magodeoz-40.jpeg'
     },
+    {
+        id: 41,
+        size: ['S', 'M', 'L', 'XL', '2XL', '3XL'],
+        price: '$20',
+        category: 'Music',
+        group: 'Los Fabulosos Cadillacs',
+        image: '/Camisas/Los-fabulosos-cadillacs/Mkp-los-fabulosos-cadillacs-01.jpg'
+    },
+
+
 ]
