@@ -26,22 +26,15 @@ export const AnimeShirtPage = () => {
         dispatch(setCurrentPage(currentPage - 1));
     };
 
-
-    // Memoización de la lista de camisetas filtradas para evitar recálculos innecesarios
     const anime = useMemo(() => filteredShirts, [filteredShirts]);
 
     const currentShirts = anime.slice(indexOfFirstShirt, indexOfLastShirt);
 
-    // Efecto que se ejecuta cuando cambia el texto de búsqueda
     useEffect(() => {
         if (searchText.trim() === "") {
-            // Si el campo de búsqueda está vacío, restablece la lista completa de camisetas
-
             dispatch(setFilteredShirts(camisasAnime));
         } else {
-            // Obtiene la lista de camisetas filtradas por el texto de búsqueda
             const filtered = getShirtByAnime(searchText);
-            // Actualiza el estado con la lista de camisetas filtradas
             dispatch(setFilteredShirts(filtered));
         }
     }, [searchText, dispatch]);
