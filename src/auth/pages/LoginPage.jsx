@@ -7,7 +7,7 @@ export const LoginPage = () => {
             <form >
                 <div className="py-2">
                     <center>
-                        <span className="text-3xl font-semibold text-black/90">Login</span>
+                        <span className="text-3xl font-semibold text-black/90">Log In</span>
                     </center>
                 </div>
                 <div className="mt-2">
@@ -22,7 +22,7 @@ export const LoginPage = () => {
                         name="email"
                         placeholder="Email"
                         autoComplete='off'
-                        className="w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 placeholder-inherit"
+                        className="w-full rounded-md py-2.5 px-4 border text-sm text-black/90 placeholder-inherit outline-none bg-slate-200"
                     />
                 </div>
 
