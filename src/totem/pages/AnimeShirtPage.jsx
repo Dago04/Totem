@@ -1,49 +1,46 @@
+import { useSelector, useDispatch } from "react-redux";
+import { useEffect, useMemo } from "react";
 import { ShirtAnimeList, Pagination } from "../components";
 import { NoResult, Searchbar } from "../../ui";
 import { getShirtByAnime } from "../helpers";
-import { useEffect, useMemo, useState } from "react";
 import { camisasAnime } from "../data/animeShirts";
-
+import { setFilteredShirts, setSearchText, setCurrentPage } from "../../store/slices/anime";
 export const AnimeShirtPage = () => {
-    // Estado para almacenar la lista de camisetas filtradas
-    const [filteredShirts, setFilteredShirts] = useState(camisasAnime);
-    // Estado para almacenar el texto de búsqueda
-    const [searchText, setSearchText] = useState("");
 
-    // Estado para almacenar el número de camisetas por página
-    const [currentPage, setCurrentPage] = useState(1);
-    const [shirtsPerPage] = useState(12);
+    const dispatch = useDispatch();
+    const { filteredShirts, searchText, currentPage, shirtsPerPage } = useSelector(
+        (state) => state.anime
+    );
 
     const indexOfLastShirt = currentPage * shirtsPerPage;
     const indexOfFirstShirt = indexOfLastShirt - shirtsPerPage;
 
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+    const paginate = (pageNumber) => {
+        dispatch(setCurrentPage(pageNumber));
+    }
+    const nextPage = () => {
+        dispatch(setCurrentPage(currentPage + 1));
+    };
 
-    const nextPage = () => setCurrentPage((prev) => prev + 1);
-    const prevPage = () => setCurrentPage((prev) => prev - 1);
+    const prevPage = () => {
+        dispatch(setCurrentPage(currentPage - 1));
+    };
 
-    // Memoización de la lista de camisetas filtradas para evitar recálculos innecesarios
     const anime = useMemo(() => filteredShirts, [filteredShirts]);
 
     const currentShirts = anime.slice(indexOfFirstShirt, indexOfLastShirt);
 
-    // Efecto que se ejecuta cuando cambia el texto de búsqueda
     useEffect(() => {
         if (searchText.trim() === "") {
-            // Si el campo de búsqueda está vacío, restablece la lista completa de camisetas
-
-            setFilteredShirts(camisasAnime);
+            dispatch(setFilteredShirts(camisasAnime));
         } else {
-            // Obtiene la lista de camisetas filtradas por el texto de búsqueda
             const filtered = getShirtByAnime(searchText);
-            console.log('a')
-            // Actualiza el estado con la lista de camisetas filtradas
-            setFilteredShirts(filtered);
+            dispatch(setFilteredShirts(filtered));
         }
-    }, [searchText]);
+    }, [searchText, dispatch]);
 
     const handleSearch = (anime) => {
-        setSearchText(anime);
+        dispatch(setSearchText(anime));
     };
 
     return (
@@ -52,7 +49,7 @@ export const AnimeShirtPage = () => {
                 <Searchbar
                     onSearch={handleSearch}
                     searchText={searchText}
-                    setSearchText={setSearchText}
+                    setSearchText={(text) => dispatch(setSearchText(text))}
                     placeholder={"Busca por anime"}
                 />
             </section>
