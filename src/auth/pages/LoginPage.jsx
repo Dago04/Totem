@@ -2,6 +2,7 @@ import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { AuthLayout } from "../layout/AuthLayout";
 import { FaGoogle } from "react-icons/fa";
+import Logo from "/LogoBlack.png";
 import { useForm } from "../../hooks/useForm";
 import { checkingAuthentication, startGoogleSignIn } from "../../store/slices/auth";
 export const LoginPage = () => {
@@ -27,8 +28,10 @@ export const LoginPage = () => {
         <AuthLayout>
             <form onSubmit={onSubmit}>
                 <div className="py-2">
-                    <center>
-                        <span className="text-3xl font-semibold text-black/90">Log In</span>
+                    <img className="w-16 py-0" src={Logo} alt="Logo Totem" />
+                    <center >
+
+                        <span className="text-3xl justify-center font-semibold text-black/90">Log In</span>
                     </center>
                 </div>
                 <div className="mt-2">
