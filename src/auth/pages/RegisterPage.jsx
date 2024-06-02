@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { AuthLayout } from '../layout/AuthLayout';
-import { FaGoogle } from "react-icons/fa";
 export const RegisterPage = () => {
     return (
         <AuthLayout>
