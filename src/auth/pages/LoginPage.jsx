@@ -1,18 +1,21 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { AuthLayout } from "../layout/AuthLayout";
 import { FaGoogle } from "react-icons/fa";
 import Logo from "/LogoBlack.png";
 import { useForm } from "../../hooks/useForm";
 import { checkingAuthentication, startGoogleSignIn } from "../../store/slices/auth";
+import { useMemo } from "react";
 export const LoginPage = () => {
-
+    const { status } = useSelector((state) => state.auth);
     const dispatch = useDispatch();
 
     const { email, password, onInputChange } = useForm({
         email: "dagosalas1999@gmail.com",
         password: "123456",
     });
+
+    const isAuthenticated = useMemo(() => status === 'checking', [status]);
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -74,14 +77,22 @@ export const LoginPage = () => {
 
                 <div className="flex flex-row gap-3 items-center justify-center mt-4 sm:flex-row py-4 text-sm ">
                     <button
-                        className="w-1/2  inline-flex justify-center items-center px-4 py-2  bg-slate-900/90 border border-transparent rounded-md font-semibold  text-white/90 uppercase tracking-widest hover:bg-blue-600  focus:outline-none focus:ring-2 focus:ring-offset-2 transition ease-in-out duration-150"
+                        className={`w-1/2 inline-flex justify-center items-center px-4 py-2 border border-transparent rounded-md font-semibold uppercase tracking-widest transition ease-in-out duration-150 ${isAuthenticated
+                            ? 'bg-gray-400 text-gray-700 cursor-not-allowed'
+                            : 'bg-slate-900/90 text-white/90 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2'
+                            }`}
                         type="submit"
+                        disabled={isAuthenticated}
                     >
                         Login
                     </button>
                     <button
-                        className="w-1/2 inline-flex justify-center items-center gap-2 px-4 py-2  bg-slate-900/90 border border-transparent rounded-md font-semibold  text-white/90 uppercase tracking-widest hover:bg-blue-600  focus:outline-none focus:ring-2 focus:ring-offset-2 transition ease-in-out duration-150"
+                        className={`w-1/2 inline-flex justify-center items-center gap-2 px-4 py-2 border border-transparent rounded-md font-semibold uppercase tracking-widest transition ease-in-out duration-150 ${isAuthenticated
+                            ? 'bg-gray-400 text-gray-700 cursor-not-allowed'
+                            : 'bg-slate-900/90 text-white/90 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2'
+                            }`}
                         onClick={onGoogleSignIn}
+                        disabled={isAuthenticated}
                     >
                         <FaGoogle size={15} />
                         Google
