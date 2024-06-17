@@ -1,4 +1,10 @@
-import { GoogleAuthProvider, createUserWithEmailAndPassword, signInWithPopup } from "firebase/auth";
+import {
+    GoogleAuthProvider,
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword,
+    signInWithPopup,
+    updateProfile,
+} from "firebase/auth";
 import { FirebaseAuth } from "./config";
 
 const googleProvider = new GoogleAuthProvider();
@@ -14,35 +20,75 @@ export const signInWithGoogle = async () => {
             displayName,
             email,
             photoURL,
-            uid
-        }
-
+            uid,
+        };
     } catch (error) {
         const errorMessage = error.message;
         return {
             ok: false,
-            errorMessage
-        }
+            errorMessage,
+        };
     }
-}
+};
 
-export const registerUserWithEmailPassword = async ({ email, password, displayName }) => {
+export const registerUserWithEmailPassword = async ({
+    email,
+    password,
+    displayName,
+}) => {
     try {
-        const resp = await createUserWithEmailAndPassword(FirebaseAuth, email, password);
+        const resp = await createUserWithEmailAndPassword(
+            FirebaseAuth,
+            email,
+            password
+        );
         const { uid, photoURL } = resp.user;
-        console.log(resp)
+
+        await updateProfile(
+            FirebaseAuth.currentUser, // user
+            {
+                displayName,
+                photoURL,
+            }
+        );
         return {
             ok: true,
             uid,
             photoURL,
             email,
             displayName,
-        }
+        };
     } catch (error) {
         const errorMessage = error.message;
         return {
             ok: false,
-            errorMessage
-        }
+            errorMessage,
+        };
     }
-}
+};
+
+
+export const loginWithEmailPassword = async ({ email, password }) => {
+    try {
+        const resp = await signInWithEmailAndPassword(
+            FirebaseAuth,
+            email,
+            password
+        );
+        const { displayName, photoURL, uid } = resp.user;
+
+        return {
+            ok: true,
+            uid,
+            photoURL,
+            displayName,
+        }
+
+    } catch (error) {
+        const errorMessage = error.message;
+        return {
+            ok: false,
+            errorMessage,
+        };
+    }
+};

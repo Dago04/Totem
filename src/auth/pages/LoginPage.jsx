@@ -4,28 +4,31 @@ import { AuthLayout } from "../layout/AuthLayout";
 import { FaGoogle } from "react-icons/fa";
 import Logo from "/LogoBlack.png";
 import { useForm } from "../../hooks/useForm";
-import { checkingAuthentication, startGoogleSignIn } from "../../store/slices/auth";
-import { useMemo } from "react";
+import { checkingAuthentication, startGoogleSignIn, startLoginWithEmailPassword } from "../../store/slices/auth";
+import { useEffect, useMemo } from "react";
+
 export const LoginPage = () => {
-    const { status } = useSelector((state) => state.auth);
+    const { status, errorMessage } = useSelector((state) => state.auth);
     const dispatch = useDispatch();
 
     const { email, password, onInputChange } = useForm({
-        email: "dagosalas1999@gmail.com",
-        password: "123456",
+        email: "",
+        password: "",
     });
 
     const isAuthenticated = useMemo(() => status === 'checking', [status]);
 
     const onSubmit = (e) => {
         e.preventDefault();
-        dispatch(checkingAuthentication(email, password));
+        dispatch(startLoginWithEmailPassword({ email, password }));
     };
 
     const onGoogleSignIn = (e) => {
         e.preventDefault();
         dispatch(startGoogleSignIn());
     };
+
+
 
     return (
         <AuthLayout>
@@ -74,6 +77,15 @@ export const LoginPage = () => {
                         />
                     </div>
                 </div>
+
+                <div className="mt-4 text-center ">
+                    {
+                        !!errorMessage && (
+                            <h1 className="block font-medium text-sm text-red-500"> {errorMessage} </h1>
+                        )
+                    }
+                </div>
+
 
                 <div className="flex flex-row gap-3 items-center justify-center mt-4 sm:flex-row py-4 text-sm ">
                     <button

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { AuthLayout } from "../layout/AuthLayout";
 import { useForm } from "../../hooks/useForm";
-import { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useMemo, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { startCreatingUserWithEmailPassword } from "../../store/slices/auth/thunks";
 
 const formData = {
@@ -27,6 +27,9 @@ export const RegisterPage = () => {
     const dispatch = useDispatch();
     const [formSubmitted, setFormSubmitted] = useState(false);
 
+    const { status, errorMessage } = useSelector(state => state.auth);
+
+    const isCheckingAuthentication = useMemo(() => status === 'checking', [status]) // 
     const {
         formState,
         displayName,
@@ -38,6 +41,8 @@ export const RegisterPage = () => {
         emailValid,
         passwordValid,
     } = useForm(formData, formValidations);
+
+
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -113,10 +118,19 @@ export const RegisterPage = () => {
                         )}
                     </div>
                 </div>
+
+                <div className="mt-4 text-center ">
+                    {
+                        !!errorMessage && (
+                            <h1 className="block font-medium text-sm text-red-500"> {errorMessage} </h1>
+                        )
+                    }
+                </div>
                 <div className="flex flex-row gap-3 items-center justify-center mt-4 sm:flex-row py-4 text-sm">
                     <button
                         className="w-1/2 inline-flex justify-center items-center px-4 py-2 bg-slate-900/90 border border-transparent rounded-md font-semibold text-white/90 uppercase tracking-widest hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 transition ease-in-out duration-150"
                         type="submit"
+                        disabled={isCheckingAuthentication}
                     >
                         Register
                     </button>
