@@ -7,6 +7,8 @@ import { useForm } from "../../hooks/useForm";
 import { checkingAuthentication, startGoogleSignIn, startLoginWithEmailPassword } from "../../store/slices/auth";
 import { useEffect, useMemo } from "react";
 
+
+
 export const LoginPage = () => {
     const { status, errorMessage } = useSelector((state) => state.auth);
     const dispatch = useDispatch();
@@ -32,12 +34,12 @@ export const LoginPage = () => {
 
     return (
         <AuthLayout>
-            <form onSubmit={onSubmit}>
+            <form onSubmit={onSubmit} className="animate__animated animate__fadeIn animate__faster">
                 <div className="py-2">
-                    <img className="w-16 py-0" src={Logo} alt="Logo Totem" />
+                    {/* <img className="w-16 py-0" src={Logo} alt="Logo Totem" /> */}
                     <center >
 
-                        <span className="text-3xl justify-center font-semibold text-black/90">Log In</span>
+                        <span className="text-3xl justify-center font-semibold text-black/90">Ingresar</span>
                     </center>
                 </div>
                 <div className="mt-2">
@@ -45,16 +47,16 @@ export const LoginPage = () => {
                         className="block font-medium text-sm text-black/90"
                         htmlFor="email"
                     >
-                        Email
+                        Correo Electronico
                     </label>
                     <input
                         type="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder="Escribe tu correo eletronico aquí"
                         autoComplete="off"
                         value={email}
                         onChange={onInputChange}
-                        className="w-full rounded-md py-2.5 px-4 border text-sm text-black/90 placeholder-inherit outline-none bg-slate-200"
+                        className="w-full rounded-md py-2.5 px-4 border text-sm text-black/90 outline-none bg-slate-200"
                     />
                 </div>
 
@@ -63,17 +65,17 @@ export const LoginPage = () => {
                         className="block font-medium text-sm text-black/90"
                         htmlFor="password"
                     >
-                        Password
+                        Contraseña
                     </label>
                     <div className="relative">
                         <input
                             type="password"
                             name="password"
-                            placeholder="Password"
+                            placeholder="Escribe tu contraseña aquí"
                             required
                             value={password}
                             onChange={onInputChange}
-                            className="w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 placeholder-inherit"
+                            className="w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 "
                         />
                     </div>
                 </div>
@@ -96,7 +98,7 @@ export const LoginPage = () => {
                         type="submit"
                         disabled={isAuthenticated}
                     >
-                        Login
+                        Ingresar
                     </button>
                     <button
                         className={`w-1/2 inline-flex justify-center items-center gap-2 px-4 py-2 border border-transparent rounded-md font-semibold uppercase tracking-widest transition ease-in-out duration-150 ${isAuthenticated
@@ -112,9 +114,9 @@ export const LoginPage = () => {
                 </div>
                 <div>
                     <p className="text-black/90 flex items-center justify-end w-full font-medium text-sm tracking-wide ">
-                        Dont have an account?
+                        No tienes una cuenta?
                         <Link className="ml-1  hover:text-blue-600" to={"/auth/register"}>
-                            Create
+                            Crear
                         </Link>
                     </p>
                 </div>

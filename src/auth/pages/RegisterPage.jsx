@@ -54,10 +54,10 @@ export const RegisterPage = () => {
 
     return (
         <AuthLayout>
-            <form onSubmit={onSubmit}>
+            <form onSubmit={onSubmit} className="animate__animated animate__fadeIn animate__faster">
                 <div className="py-2">
                     <center>
-                        <span className="text-3xl font-semibold text-black/90">Sign Up</span>
+                        <span className="text-3xl font-semibold text-black/90">Registrate</span>
                     </center>
                 </div>
                 <div>
@@ -72,6 +72,7 @@ export const RegisterPage = () => {
                         name="displayName"
                         value={displayName}
                         onChange={onInputChange}
+                        placeholder="Escribe tu nombre completo aquí"
                         autoComplete="off"
                         className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 ${displayNameValid && formSubmitted ? 'border-red-500' : ''}`}
                     />
@@ -84,13 +85,14 @@ export const RegisterPage = () => {
                         className={`block font-medium text-sm text-black/90 ${emailValid && formSubmitted ? 'text-red-500' : ''}`}
                         htmlFor="email"
                     >
-                        Email
+                        Correo Electronico
                     </label>
                     <input
                         type="email"
                         name="email"
                         autoComplete="off"
                         value={email}
+                        placeholder="Escribe tu correo electronico aquí"
                         onChange={onInputChange}
                         className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 ${emailValid && formSubmitted ? 'border-red-500' : ''}`}
                     />
@@ -103,13 +105,14 @@ export const RegisterPage = () => {
                         className={`block font-medium text-sm text-black/90 ${passwordValid && formSubmitted ? 'text-red-500' : ''}`}
                         htmlFor="password"
                     >
-                        Password
+                        Contraseña
                     </label>
                     <div className="relative">
                         <input
                             type="password"
                             name="password"
                             value={password}
+                            placeholder="Escribe tu contraseña aquí"
                             onChange={onInputChange}
                             className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 ${passwordValid && formSubmitted ? 'border-red-500' : ''}`}
                         />
@@ -132,14 +135,14 @@ export const RegisterPage = () => {
                         type="submit"
                         disabled={isCheckingAuthentication}
                     >
-                        Register
+                        Crear
                     </button>
                 </div>
                 <div>
                     <p className="text-black/90 flex items-center justify-end w-full font-medium text-sm tracking-wide">
-                        Already have an account?
+                        Ya tienes una cuenta?
                         <Link className="ml-1 hover:text-blue-600" to={"/auth/login"}>
-                            Login
+                            Ingresar
                         </Link>
                     </p>
                 </div>
