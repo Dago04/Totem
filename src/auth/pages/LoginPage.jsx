@@ -2,10 +2,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { AuthLayout } from "../layout/AuthLayout";
 import { FaGoogle } from "react-icons/fa";
-import Logo from "/LogoBlack.png";
+// import Logo from "/LogoBlack.png";
 import { useForm } from "../../hooks/useForm";
-import { checkingAuthentication, startGoogleSignIn, startLoginWithEmailPassword } from "../../store/slices/auth";
-import { useEffect, useMemo, useState } from "react";
+import { startGoogleSignIn, startLoginWithEmailPassword } from "../../store/slices/auth";
+import { useMemo, useState } from "react";
 
 
 const formData = {
@@ -60,7 +60,7 @@ export const LoginPage = () => {
                 </div>
                 <div className="mt-2">
                     <label
-                        className={`block font-medium text-sm text-black/90 ${emailValid && formSubmitted ? 'text-red-500' : ''}`}
+                        className={`block font-medium text-sm text-black/90 mb-1 ${emailValid && formSubmitted ? 'text-red-500' : ''}`}
                         htmlFor="email"
                     >
                         Correo Electronico
@@ -72,7 +72,7 @@ export const LoginPage = () => {
                         autoComplete="off"
                         value={email}
                         onChange={onInputChange}
-                        className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 ${emailValid && formSubmitted ? 'border-red-500' : ''}`}
+                        className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 hover:outline-black/90 ${emailValid && formSubmitted ? 'border-red-500' : ''}`}
                     />
                     {emailValid && formSubmitted && (
                         <p className="text-red-500 text-sm mt-1">{emailValid}</p>
@@ -81,7 +81,7 @@ export const LoginPage = () => {
 
                 <div className="mt-4">
                     <label
-                        className={`block font-medium text-sm text-black/90 ${passwordValid && formSubmitted ? 'text-red-500' : ''}`}
+                        className={`block font-medium text-sm text-black/90 mb-1 ${passwordValid && formSubmitted ? 'text-red-500' : ''}`}
                         htmlFor="password"
                     >
                         Contraseña
@@ -93,7 +93,7 @@ export const LoginPage = () => {
                             placeholder="Escribe tu contraseña aquí"
                             value={password}
                             onChange={onInputChange}
-                            className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 ${passwordValid && formSubmitted ? 'border-red-500' : ''}`}
+                            className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90  hover:outline-black/90 ${passwordValid && formSubmitted ? 'border-red-500' : ''}`}
                         />
                         {passwordValid && formSubmitted && (
                             <p className="text-red-500 text-sm mt-1">{passwordValid}</p>

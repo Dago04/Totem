@@ -62,7 +62,7 @@ export const RegisterPage = () => {
                 </div>
                 <div>
                     <label
-                        className={`block font-medium text-sm text-black/90 ${displayNameValid && formSubmitted ? 'text-red-500' : ''}`}
+                        className={`block font-medium text-sm text-black/90 mb-1 ${displayNameValid && formSubmitted ? 'text-red-500' : ''}`}
                         htmlFor="fullName"
                     >
                         Nombre
@@ -74,7 +74,7 @@ export const RegisterPage = () => {
                         onChange={onInputChange}
                         placeholder="Escribe tu nombre completo aquí"
                         autoComplete="off"
-                        className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 ${displayNameValid && formSubmitted ? 'border-red-500' : ''}`}
+                        className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 hover:outline-black/90 ${displayNameValid && formSubmitted ? 'border-red-500' : ''}`}
                     />
                     {displayNameValid && formSubmitted && (
                         <p className="text-red-500 text-sm mt-1">{displayNameValid}</p>
@@ -82,7 +82,7 @@ export const RegisterPage = () => {
                 </div>
                 <div className="mt-2">
                     <label
-                        className={`block font-medium text-sm text-black/90 ${emailValid && formSubmitted ? 'text-red-500' : ''}`}
+                        className={`block font-medium text-sm text-black/90 mb-1 ${emailValid && formSubmitted ? 'text-red-500' : ''}`}
                         htmlFor="email"
                     >
                         Correo Electronico
@@ -94,7 +94,7 @@ export const RegisterPage = () => {
                         value={email}
                         placeholder="Escribe tu correo electronico aquí"
                         onChange={onInputChange}
-                        className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 ${emailValid && formSubmitted ? 'border-red-500' : ''}`}
+                        className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 hover:outline-black/90 ${emailValid && formSubmitted ? 'border-red-500' : ''}`}
                     />
                     {emailValid && formSubmitted && (
                         <p className="text-red-500 text-sm mt-1">{emailValid}</p>
@@ -102,7 +102,7 @@ export const RegisterPage = () => {
                 </div>
                 <div className="mt-4">
                     <label
-                        className={`block font-medium text-sm text-black/90 ${passwordValid && formSubmitted ? 'text-red-500' : ''}`}
+                        className={`block font-medium text-sm text-black/90 mb-1 ${passwordValid && formSubmitted ? 'text-red-500' : ''}`}
                         htmlFor="password"
                     >
                         Contraseña
@@ -114,7 +114,7 @@ export const RegisterPage = () => {
                             value={password}
                             placeholder="Escribe tu contraseña aquí"
                             onChange={onInputChange}
-                            className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 ${passwordValid && formSubmitted ? 'border-red-500' : ''}`}
+                            className={`w-full rounded-md py-2.5 px-4 border text-sm outline-none bg-slate-200 text-black/90 hover:outline-black/90 ${passwordValid && formSubmitted ? 'border-red-500' : ''}`}
                         />
                         {passwordValid && formSubmitted && (
                             <p className="text-red-500 text-sm mt-1">{passwordValid}</p>
